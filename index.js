@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine,name) {
   return `Welcome, ${name}. You are number ${katzDeliLine.indexOf(name)+1} in line.`
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   if(katzDeliLine.length >= 1) {
     return `Currently serving ${katzDeliLine.shift()}.`
   }else{
