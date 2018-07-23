@@ -20,6 +20,6 @@ function currentLine(katzDeliLine) {
             console.log(`${i+1}. ${katzDeliLine[i]}`);
         }
     }else{
-        return 'The line is currently empty';
+        return 'The line is currently empty.';
     }
 }
