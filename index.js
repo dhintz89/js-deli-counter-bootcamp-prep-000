@@ -13,7 +13,7 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine(line) {
+function currentLine(katzDeliLine) {
     if(katzDeliLine.length >= 1) {
         console.log('The line is currently: ');
         for(i=0; i<katzDeliLine.length; i++) {
