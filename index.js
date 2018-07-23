@@ -14,7 +14,9 @@ function nowServing() {
 }
 
 function currentLine(katzDeliLine){
-  return `The line is currently: `& katzDeliLine.forEach(function(item, index){
+  return "The line is currently:";
+  if(katzDeliLine.length >= 1) {
+  katzDeliLine.forEach(function(item, index){
     console.log(item, index);
   });
 }
