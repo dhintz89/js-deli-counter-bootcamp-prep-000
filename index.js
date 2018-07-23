@@ -15,6 +15,6 @@ function nowServing() {
 
 function currentLine(katzDeliLine){
   katzDeliLine.forEach(fuction(name, index, array){
-    
+    return 
   })
 }
