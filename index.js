@@ -17,6 +17,6 @@ function currentLine(katzDeliLine){
   return "The line is currently:";
   if(katzDeliLine.length >= 1) {
   katzDeliLine.forEach(function(item, index){
-    console.log(item, index);
+    console.log(index, item);
   });
 }
