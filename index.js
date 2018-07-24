@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
         for(var i=0; i<katzDeliLine.length; i++) {
             whosInLine.push(`${i+1}. ${katzDeliLine[i]}`);
         }
-        return `The line is currently: ${whosInLine.join(',')
+        return `The line is currently: ${whosInLine.join(', ')
     }else{
         return 'The line is currently empty.';
     }
