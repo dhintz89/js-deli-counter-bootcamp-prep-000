@@ -15,10 +15,9 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
     if(katzDeliLine.length >= 1) {
-        var whosInLine = 
-        console.log('The line is currently: ');
+        var whosInLine = [];
         for(var i=0; i<katzDeliLine.length; i++) {
-            console.log(`${i+1}. ${katzDeliLine[i]}`);
+            whosInLine.push(`${i+1}. ${katzDeliLine[i]}`);
         }
     }else{
         return 'The line is currently empty.';
