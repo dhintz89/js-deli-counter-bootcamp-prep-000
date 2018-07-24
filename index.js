@@ -15,6 +15,7 @@ function nowServing(katzDeliLine) {
 
 function currentLine(katzDeliLine) {
     if(katzDeliLine.length >= 1) {
+        var whosInLine = 
         console.log('The line is currently: ');
         for(var i=0; i<katzDeliLine.length; i++) {
             console.log(`${i+1}. ${katzDeliLine[i]}`);
